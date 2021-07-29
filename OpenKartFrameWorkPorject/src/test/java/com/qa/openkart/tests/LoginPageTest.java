@@ -9,7 +9,6 @@ import com.qa.openkart.listeners.ExtentReportListener1;
 import com.qa.openkart.utils.Constants;
 
 
-@Listeners(ExtentReportListener1.class)
 public class LoginPageTest extends NewTest {
 	
 	@Test
