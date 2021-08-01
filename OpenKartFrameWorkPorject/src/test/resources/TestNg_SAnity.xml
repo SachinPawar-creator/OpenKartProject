@@ -8,11 +8,29 @@
       <class name="com.qa.openkart.tests.LoginPageTest"/>
       
     </classes>
+    
   </test> 
-  
+  <test name="Registration Page Test">
+    <classes>
+      <class name="com.qa.openkart.tests.RegistrationTest"/>
+      
+    </classes>
+  </test> 
    <test name="Home Page Test">
     <classes>
       <class name="com.qa.openkart.tests.HomePageTest"/>
+      
+    </classes>
+  </test> 
+  <test name="Product INfo Test">
+    <classes>
+      <class name="com.qa.openkart.tests.ProductInfoTest"/>
+      
+    </classes>
+  </test> 
+  <test name="Cart Page Test">
+    <classes>
+      <class name="com.qa.openkart.tests.CartTest"/>
       
     </classes>
   </test> 

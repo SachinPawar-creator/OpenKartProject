@@ -1,45 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="7" passed="6" failed="1" skipped="0">
+<testng-results total="18" passed="14" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-28T17:34:34Z" name="OPen Kart Test Automation Suite" finished-at="2021-07-28T17:34:52Z" duration-ms="18248">
+  <suite started-at="2021-08-01T16:48:20Z" name="OPen Kart Test Automation Suite" finished-at="2021-08-01T16:50:50Z" duration-ms="150084">
     <groups>
     </groups>
-    <test started-at="2021-07-28T17:34:34Z" name="Login Page Test" finished-at="2021-07-28T17:34:41Z" duration-ms="7531">
+    <test started-at="2021-08-01T16:48:20Z" name="Login Page Test" finished-at="2021-08-01T16:48:41Z" duration-ms="21554">
       <class name="com.qa.openkart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@20435c40]" started-at="2021-07-28T23:04:34Z" name="setUP" finished-at="2021-07-28T23:04:41Z" duration-ms="6876" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@7d286fb6]" started-at="2021-08-01T22:18:20Z" name="setUP" finished-at="2021-08-01T22:18:34Z" duration-ms="14656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="forgotpassButtonVerify()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@20435c40]" started-at="2021-07-28T23:04:41Z" name="forgotpassButtonVerify" finished-at="2021-07-28T23:04:41Z" duration-ms="250" status="PASS">
+        <test-method signature="forgotpassButtonVerify()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@7d286fb6]" started-at="2021-08-01T22:18:34Z" name="forgotpassButtonVerify" finished-at="2021-08-01T22:18:35Z" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotpassButtonVerify -->
-        <test-method signature="loginpageTitleVerify()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@20435c40]" started-at="2021-07-28T23:04:41Z" name="loginpageTitleVerify" finished-at="2021-07-28T23:04:41Z" duration-ms="41" status="PASS">
+        <test-method signature="loginpageTitleVerify()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@7d286fb6]" started-at="2021-08-01T22:18:35Z" name="loginpageTitleVerify" finished-at="2021-08-01T22:18:35Z" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpageTitleVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@20435c40]" started-at="2021-07-28T23:04:41Z" name="tearDown" finished-at="2021-07-28T23:04:41Z" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.LoginPageTest@7d286fb6]" started-at="2021-08-01T22:18:35Z" name="tearDown" finished-at="2021-08-01T22:18:41Z" duration-ms="5981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.openkart.tests.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test started-at="2021-07-28T17:34:41Z" name="Home Page Test" finished-at="2021-07-28T17:34:52Z" duration-ms="10693">
-      <class name="com.qa.openkart.tests.HomePageTest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:41Z" name="setUP" finished-at="2021-07-28T23:04:46Z" duration-ms="4556" status="PASS">
+    <test started-at="2021-08-01T16:48:41Z" name="Registration Page Test" finished-at="2021-08-01T16:49:42Z" duration-ms="60388">
+      <class name="com.qa.openkart.tests.RegistrationTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.RegistrationTest@7d9e8ef7]" started-at="2021-08-01T22:18:41Z" name="setUP" finished-at="2021-08-01T22:18:50Z" duration-ms="9210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method is-config="true" signature="HomePageSetup()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:46Z" name="HomePageSetup" finished-at="2021-07-28T23:04:49Z" duration-ms="3384" status="PASS">
+        <test-method is-config="true" signature="registerPageOpen()[pri:0, instance:com.qa.openkart.tests.RegistrationTest@7d9e8ef7]" started-at="2021-08-01T22:18:50Z" name="registerPageOpen" finished-at="2021-08-01T22:18:53Z" duration-ms="2914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageOpen -->
+        <test-method signature="verifyRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.openkart.tests.RegistrationTest@7d9e8ef7]" started-at="2021-08-01T22:19:02Z" name="verifyRegisteration" data-provider="getRegisterData" finished-at="2021-08-01T22:19:16Z" duration-ms="14324" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachint]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pawart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sachinf@gamil.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.545666548E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[selenium#123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+	at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+	at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+	at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Logout
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-M5M51V1', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteration -->
+        <test-method signature="verifyRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.openkart.tests.RegistrationTest@7d9e8ef7]" started-at="2021-08-01T22:19:16Z" name="verifyRegisteration" data-provider="getRegisterData" finished-at="2021-08-01T22:19:29Z" duration-ms="12646" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAchinJ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dsfaas@dummy.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.545666548E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[selenium#123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+	at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+	at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+	at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Logout
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-M5M51V1', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteration -->
+        <test-method signature="verifyRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.openkart.tests.RegistrationTest@7d9e8ef7]" started-at="2021-08-01T22:19:29Z" name="verifyRegisteration" data-provider="getRegisterData" finished-at="2021-08-01T22:19:41Z" duration-ms="11438" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SachinP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Psdft]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dsfaf@dummy.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.545666548E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[selenium#123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+	at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+	at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+	at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Logout
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-M5M51V1', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.RegistrationTest@7d9e8ef7]" started-at="2021-08-01T22:19:41Z" name="tearDown" finished-at="2021-08-01T22:19:42Z" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.openkart.tests.RegistrationTest -->
+    </test> <!-- Registration Page Test -->
+    <test started-at="2021-08-01T16:49:42Z" name="Home Page Test" finished-at="2021-08-01T16:49:59Z" duration-ms="17395">
+      <class name="com.qa.openkart.tests.HomePageTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:42Z" name="setUP" finished-at="2021-08-01T22:19:52Z" duration-ms="10731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="HomePageSetup()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:52Z" name="HomePageSetup" finished-at="2021-08-01T22:19:56Z" duration-ms="3063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageSetup -->
-        <test-method signature="HomePageVerification()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:49Z" name="HomePageVerification" finished-at="2021-07-28T23:04:49Z" duration-ms="44" status="PASS">
+        <test-method signature="HomePageVerification()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:56Z" name="HomePageVerification" finished-at="2021-08-01T22:19:56Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageVerification -->
-        <test-method signature="itemsintheCart()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:49Z" name="itemsintheCart" finished-at="2021-07-28T23:04:49Z" duration-ms="85" status="FAIL">
+        <test-method signature="itemsintheCart()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:56Z" name="itemsintheCart" finished-at="2021-08-01T22:19:56Z" duration-ms="112" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -81,23 +361,87 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- itemsintheCart -->
-        <test-method signature="menuDataVerification()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:49Z" name="menuDataVerification" finished-at="2021-07-28T23:04:50Z" duration-ms="267" status="PASS">
+        <test-method signature="menuDataVerification()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:56Z" name="menuDataVerification" finished-at="2021-08-01T22:19:56Z" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuDataVerification -->
-        <test-method signature="multipleItemsVerficaiton()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:50Z" name="multipleItemsVerficaiton" finished-at="2021-07-28T23:04:50Z" duration-ms="111" status="PASS">
+        <test-method signature="multipleItemsVerficaiton()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:56Z" name="multipleItemsVerficaiton" finished-at="2021-08-01T22:19:56Z" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleItemsVerficaiton -->
-        <test-method signature="searchMethodVerification()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:50Z" name="searchMethodVerification" finished-at="2021-07-28T23:04:52Z" duration-ms="1826" status="PASS">
+        <test-method signature="searchMethodVerification()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:56Z" name="searchMethodVerification" finished-at="2021-08-01T22:19:59Z" duration-ms="2398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchMethodVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.HomePageTest@7393222f]" started-at="2021-07-28T23:04:52Z" name="tearDown" finished-at="2021-07-28T23:04:52Z" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.HomePageTest@3688eb5b]" started-at="2021-08-01T22:19:59Z" name="tearDown" finished-at="2021-08-01T22:19:59Z" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.openkart.tests.HomePageTest -->
     </test> <!-- Home Page Test -->
+    <test started-at="2021-08-01T16:49:59Z" name="Product INfo Test" finished-at="2021-08-01T16:50:24Z" duration-ms="24927">
+      <class name="com.qa.openkart.tests.ProductInfoTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.ProductInfoTest@36a5cabc]" started-at="2021-08-01T22:19:59Z" name="setUP" finished-at="2021-08-01T22:20:07Z" duration-ms="8148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="porductInfoSetup()[pri:0, instance:com.qa.openkart.tests.ProductInfoTest@36a5cabc]" started-at="2021-08-01T22:20:07Z" name="porductInfoSetup" finished-at="2021-08-01T22:20:11Z" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- porductInfoSetup -->
+        <test-method signature="verifyProductInfoTest()[pri:0, instance:com.qa.openkart.tests.ProductInfoTest@36a5cabc]" started-at="2021-08-01T22:20:11Z" name="verifyProductInfoTest" finished-at="2021-08-01T22:20:19Z" duration-ms="8665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInfoTest -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:com.qa.openkart.tests.ProductInfoTest@36a5cabc]" started-at="2021-08-01T22:20:19Z" name="verifyAddToCart" finished-at="2021-08-01T22:20:23Z" depends-on-methods="com.qa.openkart.tests.ProductInfoTest.verifyProductInfoTest" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.ProductInfoTest@36a5cabc]" started-at="2021-08-01T22:20:23Z" name="tearDown" finished-at="2021-08-01T22:20:24Z" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.openkart.tests.ProductInfoTest -->
+    </test> <!-- Product INfo Test -->
+    <test started-at="2021-08-01T16:50:24Z" name="Cart Page Test" finished-at="2021-08-01T16:50:50Z" duration-ms="25538">
+      <class name="com.qa.openkart.tests.CartTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:24Z" name="setUP" finished-at="2021-08-01T22:20:30Z" duration-ms="5873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="landingonCartTest()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:30Z" name="landingonCartTest" finished-at="2021-08-01T22:20:35Z" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingonCartTest -->
+        <test-method signature="verifyItemsinCart()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:35Z" name="verifyItemsinCart" finished-at="2021-08-01T22:20:35Z" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsinCart -->
+        <test-method signature="verifyCartItemsNames()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:35Z" name="verifyCartItemsNames" finished-at="2021-08-01T22:20:35Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartItemsNames -->
+        <test-method signature="verifyCartProductData()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:35Z" name="verifyCartProductData" finished-at="2021-08-01T22:20:36Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartProductData -->
+        <test-method signature="verifyCuponCode()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:36Z" name="verifyCuponCode" finished-at="2021-08-01T22:20:36Z" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCuponCode -->
+        <test-method signature="verifyEstimateTaxes()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:36Z" name="verifyEstimateTaxes" finished-at="2021-08-01T22:20:45Z" duration-ms="8999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEstimateTaxes -->
+        <test-method signature="verifyGiftCertificate()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:45Z" name="verifyGiftCertificate" finished-at="2021-08-01T22:20:48Z" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiftCertificate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.openkart.tests.CartTest@4671115f]" started-at="2021-08-01T22:20:48Z" name="tearDown" finished-at="2021-08-01T22:20:50Z" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.openkart.tests.CartTest -->
+    </test> <!-- Cart Page Test -->
   </suite> <!-- OPen Kart Test Automation Suite -->
 </testng-results>

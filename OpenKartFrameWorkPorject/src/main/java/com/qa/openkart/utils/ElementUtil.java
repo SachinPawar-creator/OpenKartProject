@@ -59,6 +59,10 @@ public class ElementUtil extends BasePage {
 		this.waitForElementPresent(locator, 10);
 		this.getElement(locator).click();
 	}
+	public void doClear(final By locator) {
+		this.waitForElementPresent(locator, 10);
+		this.getElement(locator).clear();
+	}
 
 	public String doGetText(final By locator) {
 		this.waitForElementPresent(locator, 10);
@@ -162,6 +166,13 @@ public class ElementUtil extends BasePage {
 		this.waitForElementPresent(locator, 10);
 		final Actions action = new Actions(this.driver);
 		action.click(this.getElement(locator)).build().perform();
+	}
+	
+	public void doActionMoveToElement(final By locator)
+	{
+		this.waitForElementPresent(locator, 10);
+		final Actions action = new Actions(this.driver);
+		action.moveToElement(getElement(locator)).build().perform();
 	}
 
 	public List<WebElement> visibilityofAllElements(final By locator, final int timeout) {

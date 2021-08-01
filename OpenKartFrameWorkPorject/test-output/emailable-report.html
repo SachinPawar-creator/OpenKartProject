@@ -31,27 +31,154 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Login Page Test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">7.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Home Page Test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">10.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Login Page Test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Registration Page Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">60.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Home Page Test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">17.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Product INfo Test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">24.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart Page Test</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">25.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">18.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">150.1 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Login Page Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">com.qa.openkart.tests.LoginPageTest</td><td><a href="#m1"><b>forgotpassButtonVerify</b>  </a></td><td class="numi">1</td><td>1627493681101</td><td class="numi">250</td></tr><tr class="passedodd"><td><a href="#m2"><b>loginpageTitleVerify</b>  </a></td><td class="numi">1</td><td>1627493681356</td><td class="numi">41</td></tr>
+<tr class="passedodd"><td rowspan="2">com.qa.openkart.tests.LoginPageTest</td><td><a href="#m1"><b>forgotpassButtonVerify</b>  </a></td><td class="numi">1</td><td>1627836514804</td><td class="numi">835</td></tr><tr class="passedodd"><td><a href="#m2"><b>loginpageTitleVerify</b>  </a></td><td class="numi">1</td><td>1627836515642</td><td class="numi">57</td></tr>
+<tr><th colspan="4">Registration Page Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">com.qa.openkart.tests.RegistrationTest</td><td><a href="#m3"><b>verifyRegisteration</b>  </a></td><td class="numi">3</td><td>1627836542654</td><td class="numi">38416</td></tr><tr class="failedodd"><td><a href="#m4"><b>verifyRegisteration</b>  </a></td><td class="numi">3</td><td>1627836542654</td><td class="numi">38416</td></tr><tr class="failedodd"><td><a href="#m5"><b>verifyRegisteration</b>  </a></td><td class="numi">3</td><td>1627836542654</td><td class="numi">38416</td></tr>
 <tr><th colspan="4">Home Page Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">com.qa.openkart.tests.HomePageTest</td><td><a href="#m3"><b>itemsintheCart</b>  </a></td><td class="numi">1</td><td>1627493689749</td><td class="numi">85</td></tr>
+<tr class="failedodd"><td rowspan="1">com.qa.openkart.tests.HomePageTest</td><td><a href="#m6"><b>itemsintheCart</b>  </a></td><td class="numi">1</td><td>1627836596129</td><td class="numi">112</td></tr>
 <tr><th colspan="4">Home Page Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="4">com.qa.openkart.tests.HomePageTest</td><td><a href="#m4"><b>HomePageVerification</b>  </a></td><td class="numi">1</td><td>1627493689704</td><td class="numi">44</td></tr><tr class="passedodd"><td><a href="#m5"><b>menuDataVerification</b>  </a></td><td class="numi">1</td><td>1627493689837</td><td class="numi">267</td></tr><tr class="passedodd"><td><a href="#m6"><b>multipleItemsVerficaiton</b>  </a></td><td class="numi">1</td><td>1627493690105</td><td class="numi">111</td></tr><tr class="passedodd"><td><a href="#m7"><b>searchMethodVerification</b>  </a></td><td class="numi">1</td><td>1627493690217</td><td class="numi">1826</td></tr>
+<tr class="passedodd"><td rowspan="4">com.qa.openkart.tests.HomePageTest</td><td><a href="#m7"><b>HomePageVerification</b>  </a></td><td class="numi">1</td><td>1627836596049</td><td class="numi">78</td></tr><tr class="passedodd"><td><a href="#m8"><b>menuDataVerification</b>  </a></td><td class="numi">1</td><td>1627836596243</td><td class="numi">208</td></tr><tr class="passedodd"><td><a href="#m9"><b>multipleItemsVerficaiton</b>  </a></td><td class="numi">1</td><td>1627836596452</td><td class="numi">162</td></tr><tr class="passedodd"><td><a href="#m10"><b>searchMethodVerification</b>  </a></td><td class="numi">1</td><td>1627836596615</td><td class="numi">2398</td></tr>
+<tr><th colspan="4">Product INfo Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.qa.openkart.tests.ProductInfoTest</td><td><a href="#m11"><b>verifyProductInfoTest</b>  </a></td><td class="numi">1</td><td>1627836611108</td><td class="numi">8665</td></tr><tr class="passedodd"><td><a href="#m12"><b>verifyAddToCart</b>  </a></td><td class="numi">1</td><td>1627836619777</td><td class="numi">3748</td></tr>
+<tr><th colspan="4">Cart Page Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">com.qa.openkart.tests.CartTest</td><td><a href="#m13"><b>verifyItemsinCart</b>  </a></td><td class="numi">1</td><td>1627836635303</td><td class="numi">406</td></tr><tr class="passedodd"><td><a href="#m14"><b>verifyCartItemsNames</b>  </a></td><td class="numi">1</td><td>1627836635712</td><td class="numi">60</td></tr><tr class="passedodd"><td><a href="#m15"><b>verifyCartProductData</b>  </a></td><td class="numi">1</td><td>1627836635773</td><td class="numi">291</td></tr><tr class="passedodd"><td><a href="#m16"><b>verifyCuponCode</b>  </a></td><td class="numi">1</td><td>1627836636065</td><td class="numi">573</td></tr><tr class="passedodd"><td><a href="#m17"><b>verifyEstimateTaxes</b>  </a></td><td class="numi">1</td><td>1627836636645</td><td class="numi">8999</td></tr><tr class="passedodd"><td><a href="#m18"><b>verifyGiftCertificate</b>  </a></td><td class="numi">1</td><td>1627836645644</td><td class="numi">3232</td></tr>
 </table>
 <h1>Login Page Test</h1>
 <h2 id="m1">com.qa.openkart.tests.LoginPageTest:forgotpassButtonVerify</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">com.qa.openkart.tests.LoginPageTest:loginpageTitleVerify</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Registration Page Test</h1>
+<h2 id="m3">com.qa.openkart.tests.RegistrationTest:verifyRegisteration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>SachinP</td>
+<td>Psdft</td>
+<td>dsfaf@dummy.com</td>
+<td>6.545666548E9</td>
+<td>selenium#123</td>
+<td>yes</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="6">
+<p>Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+<br/>at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+<br/>at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+<br/>at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+<br/>at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+<br/>25 lines not shown
+<p>Caused by Cannot locate an element using By.linkText: Logout
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-M5M51V1&apos;, ip: &apos;192.168.0.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+<br/>at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+<br/>at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+<br/>at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+<br/>at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+<br/>at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.qa.openkart.tests.RegistrationTest:verifyRegisteration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>Sachint</td>
+<td>Pawart</td>
+<td>sachinf@gamil.com</td>
+<td>6.545666548E9</td>
+<td>selenium#123</td>
+<td>yes</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="6">
+<p>Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+<br/>at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+<br/>at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+<br/>at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+<br/>at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+<br/>25 lines not shown
+<p>Caused by Cannot locate an element using By.linkText: Logout
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-M5M51V1&apos;, ip: &apos;192.168.0.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+<br/>at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+<br/>at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+<br/>at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+<br/>at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+<br/>at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.qa.openkart.tests.RegistrationTest:verifyRegisteration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>SAchinJ</td>
+<td>Patd</td>
+<td>dsfaas@dummy.com</td>
+<td>6.545666548E9</td>
+<td>selenium#123</td>
+<td>yes</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="6">
+<p>Expected condition failed: waiting for presence of element located by: By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+<br/>at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+<br/>at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+<br/>at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+<br/>at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+<br/>25 lines not shown
+<p>Caused by Cannot locate an element using By.linkText: Logout
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-M5M51V1&apos;, ip: &apos;192.168.0.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+<br/>at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+<br/>at com.qa.openkart.utils.ElementUtil.waitForElementPresent(ElementUtil.java:186)
+<br/>at com.qa.openkart.utils.ElementUtil.doClick(ElementUtil.java:59)
+<br/>at com.qa.openkart.pages.RegesterationPage.registrationDataFillup(RegesterationPage.java:54)
+<br/>at com.qa.openkart.tests.RegistrationTest.verifyRegisteration(RegistrationTest.java:42)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
 <h1>Home Page Test</h1>
-<h2 id="m3">com.qa.openkart.tests.HomePageTest:itemsintheCart</h2>
+<h2 id="m6">com.qa.openkart.tests.HomePageTest:itemsintheCart</h2>
 <div style="padding-left:3em">
 <p>expected [true] but found [false]</p>
 org.testng.Assert.fail(Assert.java:94)
@@ -62,12 +189,30 @@ org.testng.Assert.fail(Assert.java:94)
 <br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.qa.openkart.tests.HomePageTest:HomePageVerification</h2>
+<h2 id="m7">com.qa.openkart.tests.HomePageTest:menuDataVerification</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">com.qa.openkart.tests.HomePageTest:menuDataVerification</h2>
+<h2 id="m8">com.qa.openkart.tests.HomePageTest:multipleItemsVerficaiton</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">com.qa.openkart.tests.HomePageTest:searchMethodVerification</h2>
+<h2 id="m9">com.qa.openkart.tests.HomePageTest:searchMethodVerification</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">com.qa.openkart.tests.HomePageTest:multipleItemsVerficaiton</h2>
+<h2 id="m10">com.qa.openkart.tests.HomePageTest:HomePageVerification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Product INfo Test</h1>
+<h2 id="m11">com.qa.openkart.tests.ProductInfoTest:verifyAddToCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.qa.openkart.tests.ProductInfoTest:verifyProductInfoTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Cart Page Test</h1>
+<h2 id="m13">com.qa.openkart.tests.CartTest:verifyEstimateTaxes</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.qa.openkart.tests.CartTest:verifyCuponCode</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.qa.openkart.tests.CartTest:verifyCartProductData</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.qa.openkart.tests.CartTest:verifyGiftCertificate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.qa.openkart.tests.CartTest:verifyItemsinCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.qa.openkart.tests.CartTest:verifyCartItemsNames</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

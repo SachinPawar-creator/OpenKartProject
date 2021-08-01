@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 25 14:08:36 IST 2021</td>
+<td>Started on:</td><td>Sun Aug 01 22:19:42 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25937 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17395 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,45 +77,41 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.openkart.tests.HomePageTest.itemsintheCart()'><b>itemsintheCart</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.qa.openkart.tests.HomePageTest.itemsintheCart(HomePageTest.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2106432383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2106432383'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.qa.openkart.tests.HomePageTest.itemsintheCart(HomePageTest.java:34)
+	at com.qa.openkart.tests.HomePageTest.itemsintheCart(HomePageTest.java:36)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace800990938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace800990938'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.qa.openkart.tests.HomePageTest.itemsintheCart(HomePageTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.openkart.tests.HomePageTest@13fd2ccd</td></tr>
+<td>com.qa.openkart.tests.HomePageTest@3688eb5b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -125,25 +121,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.qa.openkart.tests.HomePageTest.HomePageVerification()'><b>HomePageVerification</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.openkart.tests.HomePageTest@3688eb5b</td></tr>
+<tr>
 <td title='com.qa.openkart.tests.HomePageTest.menuDataVerification()'><b>menuDataVerification</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.openkart.tests.HomePageTest@13fd2ccd</td></tr>
-<tr>
-<td title='com.qa.openkart.tests.HomePageTest.searchMethodVerification()'><b>searchMethodVerification</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
-<td></td>
-<td>3</td>
-<td>com.qa.openkart.tests.HomePageTest@13fd2ccd</td></tr>
+<td>com.qa.openkart.tests.HomePageTest@3688eb5b</td></tr>
 <tr>
 <td title='com.qa.openkart.tests.HomePageTest.multipleItemsVerficaiton()'><b>multipleItemsVerficaiton</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.openkart.tests.HomePageTest@13fd2ccd</td></tr>
+<td>com.qa.openkart.tests.HomePageTest@3688eb5b</td></tr>
 <tr>
-<td title='com.qa.openkart.tests.HomePageTest.HomePageVerification()'><b>HomePageVerification</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
+<td title='com.qa.openkart.tests.HomePageTest.searchMethodVerification()'><b>searchMethodVerification</b><br>Test class: com.qa.openkart.tests.HomePageTest</td>
 <td></td>
-<td>0</td>
-<td>com.qa.openkart.tests.HomePageTest@13fd2ccd</td></tr>
+<td>2</td>
+<td>com.qa.openkart.tests.HomePageTest@3688eb5b</td></tr>
 </table><p>
 </body>
 </html>

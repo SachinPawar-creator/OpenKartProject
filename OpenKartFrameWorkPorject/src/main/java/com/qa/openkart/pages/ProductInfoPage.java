@@ -23,6 +23,9 @@ public class ProductInfoPage extends BasePage {
 	private By productimages = By.cssSelector(".thumbnails li img");
 	private By cartadded = By.cssSelector("div#product-product div.alert");
 	private By shoppingcart = By.linkText("shopping cart");
+	private By shoppingCartButton= By.xpath("(//button[@type='button'])[position()=5]");
+	private By cartButton= By.xpath("(//i[@class='fa fa-shopping-cart'])[position()=3]");
+	
 
 	public ProductInfoPage(WebDriver driver) {
 		this.driver = driver;
@@ -69,9 +72,16 @@ public class ProductInfoPage extends BasePage {
 		return util.getElements(productimages).size();
 	}
 
-	public CartPage cartPage() {
+	public void cartPage() {
 		util.doClick(shoppingcart);
 
-		return new CartPage();
+	
+	}
+	
+	public CartPage  CartPage()
+	{
+		util.doClick(shoppingCartButton);
+		util.doActionsClick(cartButton);
+		return new CartPage(driver);
 	}
 }
